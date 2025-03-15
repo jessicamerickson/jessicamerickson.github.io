@@ -1,0 +1,349 @@
+html {}
+
+body {
+    height: 100vh;
+    background-color: white;
+    color: #540A30ff;
+    font-family: "Outfit" sans-serif, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    color: #095977ff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+
+.about-us-site-header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.about-us-logobar {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-left: 100px;
+}
+
+.about-us-intro {
+    text-align: left;
+    height: 100%;
+}
+
+.logo-header {
+    margin-top: -50px;
+}
+
+.about-us-header-needle-thread {
+    height: 30%;
+    padding: 0;
+    margin-left: -35px;
+    margin-top: 30px;
+    margin-bottom: -95px;
+    border-left: 0px;
+}
+
+.about-us-header-image {
+    height: 90%;
+    border-radius: 20px;
+}
+
+.about-us-top-hero-text {
+    color: black;
+    font-family: "Outfit", serif;
+    text-align: left;
+    font-size: 10rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: -80px;
+    border-left: 50px;
+    margin-left: -17px;
+}
+
+.about-us-hero-text {
+    color: black;
+    font-family: "Outfit", serif;
+    text-align: left;
+    font-size: 10rem;
+    padding: 0;
+    margin: 0;
+    margin-top: -25px;
+    margin-bottom: -80px;
+    border-left: 10px;
+    margin-left: 10px;
+
+}
+
+.about-us-bottom-hero-text {
+    color: black;
+    font-family: "Outfit", serif;
+    text-align: left;
+    font-size: 10rem;
+    padding: 0;
+    margin: 0;
+    margin-top: -25px;
+    margin-left: -17px;
+}
+
+.about-us-subheader {
+    font-size: 15rem;
+    text-align: left;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    color: #F63E97ff;
+    font-family: "Reenie Beanie";
+    width: 100%;
+}
+
+
+
+
+
+h2 {
+    color: black;
+    font-family: "Outfit";
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+h3 {
+    color: black;
+    font-family: "Reenie Beanie";
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+main {
+    max-width: auto;
+    margin: 100px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+nav {}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: #666;
+}
+
+ul {}
+
+p {
+    max-width: fit-content;
+    font-family: "Outfit";
+    text-align: center;
+}
+
+.about-us-text {
+    max-width: 80%;
+    font-family: "Outfit";
+    text-align: center;
+    color: black;
+    padding: 100px;
+    margin: 50px;
+    margin-top: -200px;
+
+
+    font-size: 1.5rem;
+}
+
+.about-us-text em {
+    color: #F63E97ff;
+}
+
+footer {
+    background-color: #53AEB1ff;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: #095977ff;
+}
+
+.intro {
+    max-width: fit-content;
+    text-align: center;
+    height: 100%;
+}
+
+.hero-image {
+    height: 100%;
+}
+
+
+
+.imageborder {
+    border: 5px solid white;
+
+}
+
+
+.about-us-background {
+    background-color: #F3CBC5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+.intro {
+    max-width: fit-content;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+.immigrant-thread-logo {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: "Outfit";
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.position-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navlinks {
+    text-align: center;
+    margin: 20px;
+    border: 10px;
+    font-weight: bold;
+}
+
+.navlinks a {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    list-style-type: none;
+
+
+}
+
+.container {
+    display: flex;
+    background: #FFF;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 14px;
+    box-sizing: border-box;
+    margin: 12px;
+    width: 30%;
+
+}
+
+.logos {
+    width: 300px;
+}
+
+.button {
+
+    border: none;
+    background-color: #F63E97ff;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: "Outfit";
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    background-color: #53AEB1ff;
+    padding: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.footer-button {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    border: none;
+    font-size: 16px;
+    font-family: "Outfit";
+
+
+}
+
+.social-icons {
+    height: 100%
+}
+
+.footer-text {
+
+    color: black;
+    font-family: "Reenie Beanie";
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-size: 3rem;
+    margin: 50px;
+
+}

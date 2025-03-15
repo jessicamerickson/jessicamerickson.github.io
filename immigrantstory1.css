@@ -1,0 +1,139 @@
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: white;
+    color: #095977ff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 50%
+}
+
+.needle-thread-image {
+    width: 200px;
+    align-items: left;
+}
+
+h1 {
+    color: black;
+    font-family: "Outfit";
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.immigrant-stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 20px 50px 100px 50px;
+}
+
+.story-images {
+    width: 50%;
+    border-radius: 25%;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.immigrant-story-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.story-subtitle {
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Reenie Beanie";
+    width: 100%;
+}
+
+.story-text {
+    max-width: fit-content;
+    font-family: "Outfit";
+    text-align: center;
+}
+
+.more-button {
+    align-items: right;
+    margin-left: 800px;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    border: none;
+    font-size: 16px;
+    align: right;
+    font-family: "Outfit";
+    cursor: grab;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    background-color: #53AEB1ff;
+    padding: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.footer-button {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    border: none;
+    font-size: 16px;
+    font-family: "Outfit";
+    cursor: grab;
+
+
+}
+
+.social-icons {
+    height: 100%
+}
+
+.footer-text {
+
+    color: black;
+    font-family: "Reenie Beanie";
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-size: 3rem;
+    margin: 50px;
+
+}
