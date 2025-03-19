@@ -16,27 +16,10 @@
     justify-content: space-around;
     gap: 50px;
     height: 100%;
-    display: flex;
     flex-direction: row;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-.shop-header-image {
-    width: 60%;
-    border-radius: 20px;
-    margin-left: 100px;
-}
-
-.shop-header-needle-thread {
-    height: 30%;
-    padding: 0;
-    margin-left: -220px;
-    margin-top: 30px;
-    margin-bottom: -45px;
-    border-left: 0px;
-
-}
-
 
 .shop-logobar {
     display: flex;
@@ -47,15 +30,33 @@
     justify-content: space-around;
 }
 
-.shop-intro {
-    max-width: fit-content;
-    text-align: left;
-    height: 50%;
-    width: 60%;
-    margin-top: -30px;
+.shop-title {
+    display: flex;
+    flex-direction: column;
 }
 
-.shop-title {}
+.shop-header-image {
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.shop-header-needle-thread {
+    /* height: 30%; */
+    width: 50%;
+    padding: 0;
+    margin-left: -230px;
+    margin-top: 30px;
+    margin-bottom: -55px;
+    border-left: 0px;
+
+}
+
+
+
+
+
+
 
 .shop-top-hero-text {
     color: black;
@@ -105,7 +106,7 @@
     color: #F63E97ff;
     font-family: "Reenie Beanie";
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
 }
 
 /* Style inputs with type="text", select elements and textareas */
